@@ -112,3 +112,12 @@ functions:
 #     NewOutput:
 #       Description: "Description for the output"
 #       Value: "Some output value"
+
+plugins:
+  - serverless-finch
+
+custom:
+  client:
+    bucketName: dashboard-zak-2321
+    distributionFolder: frontend
+    errorDocument: index.html
